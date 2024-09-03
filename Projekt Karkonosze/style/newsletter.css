@@ -1,0 +1,59 @@
+body{
+background-color: #e0cccc;
+font-family: sans-serif;
+}
+#bar{
+    width: auto;
+    background-color: rgb(15, 13, 13,0.8);
+    padding: 5px;
+    border-radius: 5cap;
+}
+h1{
+    text-align: center;
+
+    color: aliceblue;}
+
+#box{
+    background-color: rgba(22, 19, 19, 0.7);
+    color: rgb(233, 222, 222);
+    width: 650px;
+    height: 230px;
+    border-radius: 4cap;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 5px;
+    padding-left:10px;
+    font-size: large;
+    text-align: left;
+}
+#box2{
+    background-color: rgba(22, 19, 19, 0.7);
+    color: rgb(233, 222, 222);
+    width: 58%;
+    height: 250px;
+    border-radius: 8cap;
+    box-sizing: border-box;
+    float: left;
+    margin: 10px;
+    margin-top: 10px;
+    padding-left:10px;
+    font-size: large;
+    text-align: left;
+    
+}
+a:link {
+    color: #c9bfbf;
+    }
+    a:visited {
+    color: #e0cccc;
+    }
+    a:hover {
+    color: #1c87c9;
+    }
+    a:active {
+    color: #1c87c9;
+    }
+#formularz{
+    margin: 50px;
+    width: 25%;
+}
