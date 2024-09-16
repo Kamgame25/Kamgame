@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: rgb(204, 155, 20);
+    display: flex;
+    padding: 30px;
+    
+}
+#header-text{
+    position: relative;
+    top: 25%;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    flex-direction: row;
+    font-size: 20px;
+    a{
+        margin: 10px;
+    }
+}
+#content{
+    padding-top: 30px;
+    display: flex;
+}
+.left{
+    position: relative;
+    margin-left: 20px;
+    flex: 30%;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(142, 145, 144, 0.158);
+    
+    img{
+        width: 100%;
+    }
+}
+.right{
+    position: relative;
+    flex: 70%;
+    float: right;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 10px;   
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+    img{
+        width: 100%;
+    }
+}
+img{
+    padding-bottom: 20px;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 700px){
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    #content{
+        display: block;
+    }
+    .left{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        
+        flex: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-justify: auto;
+        display: block;
+    }
+    .right{
+        padding-top: 30px;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-justify: auto;
+    }
+}
